@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void swap(int*a,int*b) {
+void swap(int*a, int*b) {
 	int t = *a;
 	*a = *b;
 	*b = t;
@@ -32,7 +32,7 @@ void display(int arr[], int size) {
 	cout << endl;
 }
 int main() {
-	int arr[] = {56, 754, 74, 63523, 54657, 889765, 9876, 5, 44, 39, 876548};
+	int arr[] = {9, 23, 45, 5, 543, 634, 24236, 34654, 53453, 445, 789,  567, 48};
 	int n = sizeof(arr) / sizeof(arr[0]);  
 	display(arr, n);
 	QS(arr, 0, n-1);	
